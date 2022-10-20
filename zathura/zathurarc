@@ -1,0 +1,8 @@
+map i recolor 
+set recolor   
+set recolor-lightcolor \#171a1f
+set recolor-keephue
+set default-bg \#171a1f
+#highlight
+#bookmark
+#word looking up on google
