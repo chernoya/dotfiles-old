@@ -1,3 +1,3 @@
 # Mclaren Rice
 
-i3 dotfiles by Sceinja
+![alt text](https://i.redd.it/rnjvyyaiayu91.png)
