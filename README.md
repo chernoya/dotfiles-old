@@ -24,6 +24,8 @@ This is my first rice so some stuff _might_ be broken, also everything is tailor
 
 > fish (with tide prompt)
 
+> Spotify (with spicetify, sleek bladerunner theme)
+
 ### Step 2: Follow the instructions
 
 I didn't make an install script, so just clone this repo 
