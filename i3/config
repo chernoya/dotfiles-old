@@ -18,8 +18,8 @@ exec --no-startup-id nm-applet
 assign [class="firefox"] $ws2
 assign [class="VSCodium"] $ws3
 assign [class="Spotify"] $ws4
-assign [class="discord"] $ws5 
- 
+assign [class="discord"] $ws5
+
 # Use pactl to adjust volume in PulseAudio.
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10%
@@ -41,13 +41,9 @@ bindsym $mod+Shift+q kill
 
 #spotify
 bindsym $mod+m exec spotify
-
-#zathura
-bindsym $mod+z exec zathura
-
 # start rofi
 bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-7/launcher.sh
-bindsym $mod+x exec --no-startup-id ~/.config/rofi/powermenu/type-4/powermenu.sh
+bindsym $mod+x exec --no-startup-id ~/.config/rofi/powermenu/type-6/powermenu.sh
 
 # change focus
 bindsym $mod+j focus left
@@ -65,6 +61,8 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
+#lockscreen
+bindsym $mod+z exec --no-startup-id ~/.config/lockscreen.sh
 # move focused window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
@@ -162,12 +160,11 @@ bindsym $mod+p exec "flameshot full -p ~/Pictures/"
 bindsym $mod+r mode "resize"
 
 #gaps 
-gaps inner 13
-gaps outer 3
+gaps inner 6
+gaps outer 0
 
 #remove window titles and no border 
 for_window [class="^.*"] border pixel 0
 
-exec --no-startup-id i3-msg [class='firefox'] $ws1
-exec --no-startup-id i3-msg [class='discord'] $ws5
-exec --no-startup-id i3-msg [class='Spotify'] $ws4
+#autotiling 
+exec_always --no-startup-id ~/i3-alternating-layout/alternating_layouts.py
