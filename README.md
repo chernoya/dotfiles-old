@@ -1,4 +1,4 @@
-# Scein's dotfiles
+# my dotfiles (old)
 
 ![alt text](https://i.redd.it/rnjvyyaiayu91.png)
 
