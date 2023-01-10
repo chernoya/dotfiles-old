@@ -35,6 +35,6 @@ git clone https://github.com/sceinja/i3-dotfiles.git
 After you've cloned the repo, move the files into your **/home/.config** directory and restart your window manager _(SUPER+shift+e)_
 (Look up your SUPER key if you don't know what it is). 
 
-It all should work now. But if there is some problem and it isn't working for you or you want to ask a question, shoot me a dm on dicord at **scein#4767**
+It all should work now. But if there is some problem and it isn't working for you or you want to ask a question, shoot me a dm on dicord at **scja#4767**
  
 
